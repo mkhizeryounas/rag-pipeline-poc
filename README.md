@@ -1,11 +1,23 @@
-# Interval JavaScript Starter
+# RAG Pipeline POC
 
-Created with
-[create-interval-app](https://github.com/interval/create-interval-app).
+This is a POC for RAG Pipeline with complex document types.
 
-- Dummy Doc: https://s3.console.aws.amazon.com/s3/buckets/member-file-storage-sandbox/object/edit_metadata?region=us-east-1&bucketType=general&showversions=false
-- Amazon Q docs: https://socket.dev/npm/package/@aws-sdk/client-qbusiness
+### Getting started
+
+Edit `.env` file according to your keys.
 
 ```
-aws s3api head-object --bucket member-file-storage-sandbox --key members/08756a54-8951-4306-9e95-6453cd9bcfac.pdf
+npm run dev
 ```
+
+### Contributing
+
+Feel free to submit pull requests.
+
+### Authors
+
+Khizer Younas - Initial work - [mkhizeryounas](http://github.com/mkhizeryounas)
+
+### Licensing
+
+The project is [MIT Licenced](./LICENSE.txt).
