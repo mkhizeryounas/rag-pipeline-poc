@@ -1,0 +1,27 @@
+{
+  "name": "interval-starter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-qbusiness": "^3.523.0",
+    "@interval/sdk": "^1.4.0",
+    "@mkhizeryounas/logger": "^1.0.4",
+    "@pinecone-database/pinecone": "^2.2.0",
+    "aws-sdk": "^2.1568.0",
+    "dotenv": "^16.0.1",
+    "langchain": "^0.1.31",
+    "lodash": "^4.17.21",
+    "openai": "^4.33.0",
+    "pinecone-client": "^2.0.0",
+    "uuid": "^9.0.1",
+    "uuid4": "^2.0.3",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
